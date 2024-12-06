@@ -1,0 +1,7 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"J1";"BarrelJack_Horizontal";1;"Barrel_Jack";;;
+2;"J3";"PinSocket_1x15_P2.54mm_Vertical";1;"left_Socket";;;
+3;"J6";"PinSocket_1x08_P2.54mm_Vertical";1;"right_Socket";;;
+4;"J5";"PinSocket_1x15_P2.54mm_Vertical";1;"right-Socket";;;
+5;"J2";"TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal";1;"Screw_Terminal for motor";;;
+6;"J4";"PinSocket_1x08_P2.54mm_Vertical";1;"left_Socket";;;
