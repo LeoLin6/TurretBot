@@ -5,6 +5,7 @@ int x;
 #define RX_PIN      2
 #define TX_PIN      3
 #define EN          12
+#define Pin       A1 //for induction sensor
 
 
 
@@ -34,7 +35,6 @@ void setup() {
   mySerial.begin(115200);  
   driver.push();
   Serial.begin(115200);
-  //Serial.setTimeout(1);  
 
   // Prepare pins
   pinMode(StepPin, OUTPUT);
@@ -51,23 +51,12 @@ void setup() {
   driver.pwm_autoscale(1);            // 1: if stealthChop is chosen. Otherwise 0
   driver.mstep_reg_select(1);
   driver.mres(MicroStep); 
-
-  //MoveToPosition(720.0);	
-  //MoveToPosition(180.0);	
+  run_calibration_seq();
+/*
   AccelToSpeed(1.0);
   run_rps(1.0);
-
-  //Serial.begin(115200); //blocking sth
-  
-  //MoveToPosition(-90.0);
-  //MoveToPosition(90.0);
-  //MoveToPosition(-90.0);
   delay(10000);
-  DecelFromSpeed(1);
-  
-  //digitalWrite(StepPin, LOW);
- 
-  //digitalWrite(EN, HIGH);	
+  DecelFromSpeed(1);*/
 }
 
 void MoveToPosition(double degrees){
@@ -115,9 +104,24 @@ void DecelFromSpeed(double rps){
 // Looping
 void loop() {
   while (!Serial.available()); 
-	x = Serial.readString().toInt(); 
-
-  //home in seq if input is a 1
-  MoveToPosition(x);
+  String str = Serial.readStringUntil('\n');
+  if(str=="cali")               //home in seq if input is a 1
+    run_calibration_seq();
+  else {
+	  x = Serial.readString().toFloat(); 
+    MoveToPosition(x);
+  }
+  
+  
 	Serial.print(x); 
+}
+
+void run_calibration_seq(){
+    while(digitalRead(Pin)!=HIGH){
+      run_rps(0.2);
+      //Serial.println("no object");
+    }
+    delay(67);
+    //Serial.println("Object detected");
+    run_rps(0);
 }
