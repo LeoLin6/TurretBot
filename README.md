@@ -8,3 +8,6 @@ Follow this schematic for wiring
 
 For motor connector reference (What's color code M1B, M1A etc)
 ![color code Image](tmc%20pcb%20documentation/stepper-connections.webp)
+
+Solder UART bridge on tmc 2208:
+https://github.com/teemuatlut/TMC2208Stepper?tab=readme-ov-file
