@@ -5,3 +5,6 @@ Plus, Arduino files in C language to drive the TMC 2208 motor driver chips with 
 
 Follow this schematic for wiring
 ![Schematic Image](tmc%20pcb%20documentation/pcb_v2_schematic.png)
+
+For motor connector reference (What's color code M1B, M1A etc)
+![color code Image](tmc%20pcb%20documentation/stepper-connections.webp)
