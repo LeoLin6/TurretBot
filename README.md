@@ -1,18 +1,18 @@
 TurretBot for acoustic experiments. 
 
-Software section: [Link Text](#software).
+[Software section](#software).
 
-Hardware setup section：[Link Text](#hardware).
+[Hardware setup section](#hardware).
 
 
 # software
 
 Arduino files in C language to drive the TMC 2208 motor driver chips with various functionalities. Includes several testing scripts for audio experiments. Plus some files that implement UART control with motor functions. 
 
-Open this file in Arduino IDE, flash onto arduino, note the COM port. 
+Open this file in Arduino IDE, flash onto arduino, note the COM port:
 curr_project/softwareserial_ver_tmc_uart.ino 
 
-Next, run this python script for calibration and positional movment functionalities. 
+Next, run this python script for calibration and positional movment functionalities:
 curr_project/serial comm.py
 
 
