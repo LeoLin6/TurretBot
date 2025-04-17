@@ -10,7 +10,12 @@
 
 #### BOM for one set of robot: 
 
-Note: PCB will have to be custom printed following these files (companies like JCLPCB would work): 
+#### 🧾 Fabrication Files
+
+All files required for manufacturing the PCB can be found here:  
+👉 [PCB Manufacturing Files](./tmc%20pcb%20manufacturing%20files/feb2025_fab)
+
+![PCB](images/PCB.jpg)
 
 #### 🔩 Component List
 
@@ -23,13 +28,13 @@ Note: PCB will have to be custom printed following these files (companies like J
 | Terminal Block for stepper motor                         | 1        | J2 (Screw_Terminal for motor)     | [digikey](https://www.digikey.com/en/products/detail/phoenix-contact/1715747/260633)                        |
 
 
-PCB files for printing (supports a TMC 2208 chip controlled by arduino). Barrel jack power supply and a 4 terminal block
+Follow this schematic to solder the parts above, using the designations
+![Schematic Image](images/pcb_v2_schematic.png)
 
-Follow this schematic for wiring
-![Schematic Image](tmc%20pcb%20documentation/pcb_v2_schematic.png)
+![Final assembled PCB](images/assembled_PCB.JPG)
 
 For motor connector reference (What's color code M1B, M1A etc)
-![color code Image](tmc%20pcb%20documentation/stepper-connections.webp)
+![color code Image](images/stepper-connections.webp)
 
 Follow this github tutorial to Solder UART bridge on tmc 2208 chip:
 https://github.com/teemuatlut/TMC2208Stepper?tab=readme-ov-file
