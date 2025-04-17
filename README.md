@@ -12,7 +12,6 @@
 All files required for manufacturing the PCB can be found here:  
 👉 [PCB Manufacturing Files](./tmc%20pcb%20manufacturing%20files/feb2025_fab)
 
-<img src="images/PCB.png" alt=" PCB" width="400"/>
 
 #### 🔩 Component List
 
@@ -26,13 +25,13 @@ All files required for manufacturing the PCB can be found here:
 
 ## 🔧 Assembly Instructions
 
-Follow this schematic to solder the parts above, using the designations:
+Follow the designators on this PCB to solder the parts above: ([also have schematic for reference](./images/pcb_v2_schematic.png))
 
-<img src="images/pcb_v2_schematic.png" alt="Schematic Image" width="600"/>
+<img src="images/PCB.png" alt=" PCB" width="400"/>
 
 Final assembled PCB:
 
-<img src="images/assembled_PCB.JPG" alt="Final Assembled PCB" width="400"/>
+<img src="images/assembled_PCB.png" alt="Final Assembled PCB" width="400"/>
 
 
 For motor connector reference (What's color code M1B, M1A etc)
