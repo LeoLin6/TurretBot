@@ -15,7 +15,7 @@
 All files required for manufacturing the PCB can be found here:  
 👉 [PCB Manufacturing Files](./tmc%20pcb%20manufacturing%20files/feb2025_fab)
 
-![PCB](images/PCB.jpg)
+<img src="images/PCB.JPG" alt=" PCB" width="400"/>
 
 #### 🔩 Component List
 
@@ -27,11 +27,16 @@ All files required for manufacturing the PCB can be found here:
 | Induction sensor terminal block                          | 1        | J7                                | [digikey](https://www.digikey.com/en/products/detail/phoenix-contact/1715734/260632)                        |
 | Terminal Block for stepper motor                         | 1        | J2 (Screw_Terminal for motor)     | [digikey](https://www.digikey.com/en/products/detail/phoenix-contact/1715747/260633)                        |
 
+## 🔧 Assembly Instructions
 
-Follow this schematic to solder the parts above, using the designations
-![Schematic Image](images/pcb_v2_schematic.png)
+Follow this schematic to solder the parts above, using the designations:
 
-![Final assembled PCB](images/assembled_PCB.JPG)
+<img src="images/pcb_v2_schematic.png" alt="Schematic Image" width="600"/>
+
+Final assembled PCB:
+
+<img src="images/assembled_PCB.JPG" alt="Final Assembled PCB" width="400"/>
+
 
 For motor connector reference (What's color code M1B, M1A etc)
 ![color code Image](images/stepper-connections.webp)
