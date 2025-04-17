@@ -60,7 +60,7 @@ If you don't already have the Arduino IDE installed, download and install it fro
 
 1. **Open Arduino IDE**  
 2. **Go to:**  
-   `File` → `Open` → Navigate to `main/src/softwareserial_ver_tmc_uart`  
+   `File` → `Open` → Navigate to `main/src/experiment_arduino`  
 3. **Connect your Arduino** via USB to your PC.
 4. **Select the correct board and port**:  
    - `Tools` → `Board` → Select the correct Arduino board (e.g., Arduino Uno)  
@@ -72,11 +72,11 @@ If you don't already have the Arduino IDE installed, download and install it fro
 1. Make sure you have Python installed (preferably Python 3.x).  
 2. Navigate to the script directory:
 ```bash
-cd curr_project
+cd main/src
 ```
 3. Run the script:
 ```bash
-python serial_comm.py
+python experiment.py
 ```
 4. Follow the terminal prompts for calibration and testing positional movement.
 
