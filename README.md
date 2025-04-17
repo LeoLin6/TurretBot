@@ -45,9 +45,51 @@ https://github.com/teemuatlut/TMC2208Stepper?tab=readme-ov-file
 
 Arduino files in C language to drive the TMC 2208 motor driver chips with various functionalities. Includes several testing scripts for audio experiments. Plus some files that implement UART control with motor functions. 
 
-Open this file in Arduino IDE, flash onto arduino, note the COM port:
-curr_project/softwareserial_ver_tmc_uart.ino 
+git clone https://github.com/LeoLin6/TurretBot.git
 
-Next, run this python script for calibration and positional movment functionalities:
+add instruction for install arduino IDE
+
+Open this folder in Arduino IDE, plug the arduino into pc, flash onto arduino, note the COM port:
+main/src/softwareserial_ver_tmc_uart
+
+Next, run this python script for calibration and positional movment functionalities, use command line
 curr_project/serial comm.py
 
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/LeoLin6/TurretBot.git
+cd TurretBot
+```
+
+### 2. Install Arduino IDE
+
+If you don't already have the Arduino IDE installed, download and install it from the official website:  
+🔗 [https://www.arduino.cc/en/software](https://www.arduino.cc/en/software)
+
+### 3. Flash the Arduino
+
+1. **Open Arduino IDE**  
+2. **Go to:**  
+   `File` → `Open` → Navigate to `main/src/softwareserial_ver_tmc_uart`  
+3. **Connect your Arduino** via USB to your PC.
+4. **Select the correct board and port**:  
+   - `Tools` → `Board` → Select the correct Arduino board (e.g., Arduino Uno)  
+   - `Tools` → `Port` → Select the appropriate COM port (note it down, you'll need it for the next step)  
+5. **Click Upload** (the right-arrow icon) to flash the firmware to the Arduino.
+
+### 4. Run the Python Script for Calibration
+
+1. Make sure you have Python installed (preferably Python 3.x).  
+2. Navigate to the script directory:
+```bash
+cd curr_project
+```
+3. Run the script:
+```bash
+python serial_comm.py
+```
+4. Follow the terminal prompts for calibration and testing positional movement.
+
+> 💡 Make sure the COM port in the script matches the one your Arduino is using.
+```
