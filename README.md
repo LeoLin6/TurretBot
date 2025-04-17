@@ -1,8 +1,6 @@
 # TurretBot for automated acoustic experiments. 
 
-[Software section](#software).
-
-[Hardware assembly section](#Sourcing the parts).
+Already have the hardware setup? Jump to the [Software section](#software).
 
 
 ## Sourcing the parts
@@ -41,19 +39,7 @@ Follow this github tutorial to Solder UART bridge on tmc 2208 chip:
 https://github.com/teemuatlut/TMC2208Stepper?tab=readme-ov-file
 
 
-# software
-
-Arduino files in C language to drive the TMC 2208 motor driver chips with various functionalities. Includes several testing scripts for audio experiments. Plus some files that implement UART control with motor functions. 
-
-git clone https://github.com/LeoLin6/TurretBot.git
-
-add instruction for install arduino IDE
-
-Open this folder in Arduino IDE, plug the arduino into pc, flash onto arduino, note the COM port:
-main/src/softwareserial_ver_tmc_uart
-
-Next, run this python script for calibration and positional movment functionalities, use command line
-curr_project/serial comm.py
+## software
 
 
 ### 1. Clone the Repository
