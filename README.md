@@ -15,7 +15,7 @@
 All files required for manufacturing the PCB can be found here:  
 👉 [PCB Manufacturing Files](./tmc%20pcb%20manufacturing%20files/feb2025_fab)
 
-<img src="images/PCB.JPG" alt=" PCB" width="400"/>
+<img src="images/PCB.jpg" alt=" PCB" width="400"/>
 
 #### 🔩 Component List
 
