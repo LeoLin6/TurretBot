@@ -60,7 +60,7 @@ If you don't already have the Arduino IDE installed, download and install it fro
 
 1. **Open Arduino IDE**  
 2. **Go to:**  
-   `File` → `Open` → Navigate to `main/src/experiment_arduino`  
+   `File` → `Open` → Navigate to `TurretBot/main/src/experiment_arduino/experiment_arduino.ino`
 3. **Connect your Arduino** via USB to your PC.
 4. **Select the correct board and port**:  
    - `Tools` → `Board` → Select the correct Arduino board (e.g., Arduino Uno)  
