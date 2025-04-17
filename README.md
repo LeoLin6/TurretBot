@@ -20,6 +20,9 @@ All files required for manufacturing the PCB can be found here:
 | PinSocket headers for TMC 2208 driver chip               | 2        | J4, J6                            | [digikey](https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61300811821/17737805)            |
 | Induction sensor terminal block                          | 1        | J7                                | [digikey](https://www.digikey.com/en/products/detail/phoenix-contact/1715734/260632)                        |
 | Terminal Block for stepper motor                         | 1        | J2 (Screw_Terminal for motor)     | [digikey](https://www.digikey.com/en/products/detail/phoenix-contact/1715747/260633)                        |
+|TMC 2208 motor driver chip                                 | 1        |  None                            | [digikey] (https://www.digikey.com/short/j84mhvfm)|
+| Adafruit adjustable power supply                      | 1         | None                                | [digikey] (https://www.digikey.com/short/31r0mw15)  |
+| Induction sensor                                      | 1         | None                                  | [amazon] (https://www.amazon.com/Taiss-NO%EF%BC%88Normally-LJ12A3-4-Z-inductive-Proximity/dp/B073XD44CW) |
 
 ## 🔧 Assembly Instructions
 
