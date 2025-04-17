@@ -1,6 +1,6 @@
 # TurretBot for automated acoustic experiments. 
 
-Already have the hardware setup? Jump to the [Software section](#software).
+Already have the hardware setup? Jump to the [Software section](#Software).
 
 
 ## Sourcing the parts
@@ -39,7 +39,7 @@ Follow this github tutorial to Solder UART bridge on tmc 2208 chip:
 https://github.com/teemuatlut/TMC2208Stepper?tab=readme-ov-file
 
 
-## software
+## Software
 
 
 ### 1. Clone the Repository
@@ -78,4 +78,3 @@ python serial_comm.py
 4. Follow the terminal prompts for calibration and testing positional movement.
 
 > 💡 Make sure the COM port in the script matches the one your Arduino is using.
-```
