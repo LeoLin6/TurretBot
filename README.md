@@ -2,6 +2,7 @@
 
 Already have the hardware setup? Jump to the [Software section](#Software).
 
+<img src="images/turret.jpg" alt="Final Assembled PCB" width="400"/>
 
 ## Sourcing the parts
 
@@ -21,7 +22,7 @@ All files required for manufacturing the PCB can be found here:
 | Induction sensor terminal block                          | 1        | J7                                | [digikey](https://www.digikey.com/en/products/detail/phoenix-contact/1715734/260632)                        |
 | Terminal Block for stepper motor                         | 1        | J2 (Screw_Terminal for motor)     | [digikey](https://www.digikey.com/en/products/detail/phoenix-contact/1715747/260633)                        |
 |TMC 2208 motor driver chip                                 | 1        |  None                            | [digikey](https://www.digikey.com/short/j84mhvfm)|
-| Adafruit adjustable power supply                      | 1         | None                                | [digikey](https://www.digikey.com/short/31r0mw15)  |
+| Adafruit adjustable power supply  (Run it at 18 Volts)            | 1         | None                                | [digikey](https://www.digikey.com/short/31r0mw15)  |
 | Induction sensor                                      | 1         | None                                  | [amazon](https://www.amazon.com/Taiss-NO%EF%BC%88Normally-LJ12A3-4-Z-inductive-Proximity/dp/B073XD44CW) |
 
 ## 🔧 Assembly Instructions
